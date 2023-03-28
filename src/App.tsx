@@ -26,9 +26,6 @@ function App() {
       }
     }, 5000);
 
-    if (!auto) {
-      clearInterval(interval);
-    }
 
     return () => {
       clearInterval(interval);
